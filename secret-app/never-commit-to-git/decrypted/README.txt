@@ -1,12 +1,6 @@
-The whole point of this example is to use encrypted
-secrets in Git.
+El objetivo de este ejemplo es usar secretos cifrados en Git.
 
-Thus you should NEVER commit unencrypted stuff in git.
-But just for demo purposes this directory contains
-the raw secrets for your convenience. This way you 
-can compare what you see deployed in Kubernetes
-with the contents of this directory.
+Por lo tanto, NUNCA se debe confirmar información sin cifrar en Git.
+Sin embargo, a modo de demostración, este directorio contiene los secretos sin procesar para su comodidad. De esta manera, se puede comparar lo que se ve implementado en Kubernetes con el contenido de este directorio.
 
-In a real production application only the 
-encrypted stuff MUST be committed in Git (see
-the manifests folder).
+En una aplicación de producción real, solo se debe confirmar información cifrada en Git (ver la carpeta de manifiestos).
